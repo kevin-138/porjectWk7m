@@ -19,6 +19,8 @@ class ExerciseActivity : AppCompatActivity() {
 
     private var exerciseTimer: CountDownTimer? = null
 
+    private var githubCheck: String? = null
+
 //    rest progress sisa restnya
     private var restOfProgress = 0
 
