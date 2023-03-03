@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="2.7"
+            android:thicknessRatio="30.0"
+            android:useLevel="true"
+            >
+            <solid android:color="@color/orange"/>
+        </shape>
+    </item>
+</layer-list>
+
+<!--inner radius ratio: kalo pake shape ring dia ngatur radius dari bagian-->
+<!--dalam ringnya-->
+
+<!--thickness ratio itu ketebalan ring nya dalam rasio lebar ring tersebut
+jadi kalo ada ring 20dp dan ratio nya 2, tebel ringnya dibagi 2 jadi 10dp-->
+
+<!--use level itu enable drawable itu dipake di progress bar, jadi bisa di display-->
+<!--sebagian doang buat kayak 25% progress, dll.-->
+
+<!--layer list adalah drawable yang isinya array dari drawable-->
+<!--tiap drawable harus ada didalem tag item dan urutanya yang paling terakhir paling atas-->

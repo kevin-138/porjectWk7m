@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Main_screen_padding">5dp</dimen>
+    <dimen name="Start_Text_size">22sp</dimen>
+</resources>
+
+<!--dimen bisa buat bikin ukuran berapa dp jadi di xml kita bisa pake valuenya, dia kayak colors-->
+<!--tapi megangnya bukan warna tapi size-->
+<!--ini dipake biar ui nya lebih konsisten-->
